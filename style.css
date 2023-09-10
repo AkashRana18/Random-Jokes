@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background: linear-gradient(135deg, #f8b1e3, #a085f4);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+    padding: 50px 20px;
+    text-align: center;
+    max-width: 100%;
+    width: 60%;
+    animation: slideUp 1.5s cubic-bezier(0.42, 0, 0.58, 1) both; 
+    transition: transform 0.5s ease, opacity 0.5s ease;
+
+
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(50px);
+
+    }
+
+    to {
+        transform: translateY(0);
+
+    }
+}
+
+
+h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    opacity: 0.7;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.joke {
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin: 30px auto;
+    max-width: 90%;
+}
+
+.btn {
+    background-color: #9f68e0;
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.1);
+    padding: 12px 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #7b4ddc;
+    transform: translateY(-2px);
+    /* Lift the button slightly on hover */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.btn:active {
+    transform: scale(0.98);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+
+}
+
+.btn:focus {
+    outline: 0;
+}
