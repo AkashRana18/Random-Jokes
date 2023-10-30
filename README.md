@@ -18,7 +18,7 @@ A simple web application that displays random jokes to make you smile! This proj
 
 ## Demo
 
-You can check out a live demo of the Random Jokes App here: [Demo Link](https://your-demo-link-here.com)
+You can check out a live demo of the Random Jokes App here: [Demo Link](https://akashrana18.github.io/Random-Jokes/)
 
 ## Features
 
